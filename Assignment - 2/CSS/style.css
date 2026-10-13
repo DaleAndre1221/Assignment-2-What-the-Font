@@ -1,0 +1,307 @@
+html{
+*{margin:0}
+font-size: 1vw; 
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222222;
+}
+
+h1{
+  font-family: "Wallpoet", sans-serif;
+  letter-spacing: 1.5px;
+}
+h2{
+  font-family: "Caprasimo", sans-serif;
+  letter-spacing: 1.5px; 
+  color: rgb(247, 117, 139);
+}
+
+.header-logo{
+  float: left;
+  display: block;
+  height: 40px;
+  margin: 0 15px;
+}
+nav menu{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.topnav {
+  float: center;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  background-color: #e1ffc6;
+  
+}
+/* Style the tabs inside navigation bar */
+.topnav a{
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 20px;
+}
+
+/* Search box in navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-size: 17px;
+}
+
+/* Change color of links when hovering */
+.topnav a:hover {
+  background-color: rgb(28, 192, 99);
+  color: black;
+}
+
+/* Class Container */
+.container {
+  font-size: 10px;
+  text-align: center;
+  background-color: lightgreen;
+  padding: 16px;
+}
+
+.Name{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+/*================================================*/
+.backgroundimg{
+  background-image:url("../img/background.jpg");
+  background-size: cover;
+  
+}
+/* Class Lyrics main */
+.lyrics{
+  font-weight: 400;
+  margin: 0;
+  padding: 2rem;
+  margin: 10px 100px 15px 100px;
+  background-color: #e4f0d6;
+  text-align: center;
+  border: ridge;
+}
+
+/* Chorus Styling */
+.hey{
+  font-family: "Black Ops One", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2rem;
+  color: #80102e;
+  letter-spacing: 1.7px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+}
+
+/* Target Line 1*/
+.line1{
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #a578d4;
+  letter-spacing: 1.5px;
+}
+/* Target Line 2 */
+.line2{
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #58a540bd;
+  letter-spacing: 1.5px;
+}
+/* Target Line 3 */
+.line3{
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #4230aabd;
+  letter-spacing: 1.5px;
+}
+/* Target Line 4 */
+.line4{
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #7b075cbd;
+  letter-spacing: 1.5px;
+}
+
+.alone{
+  font-family: "Loved by the King", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.7rem;
+  color: #f75990;
+  letter-spacing: 2.5px;
+}
+
+.alone1{
+  font-family: "Monofett", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3.5rem;
+  color: #00DDFF;
+  letter-spacing: 1.7px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+.alone2{
+  font-family: "Monofett", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3.2rem;
+  color: #0049B7;
+  letter-spacing: 1.7px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+.if{ /* Verse 3 */
+  font-family: "Wallpoet", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #0a140e;
+  letter-spacing: 2.5px;
+}
+.eat{ /* Verse 3 */
+  font-family: "Loved by the King", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #09a44f;
+  letter-spacing: 2.5px;
+}
+.meat{ /* Verse 3 */
+  font-family: "Black Ops One", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.1rem;
+  color: #a41e09;
+  letter-spacing: 2.7px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+.pudding{ /* Verse 3 */
+  font-family: "Black Ops One", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.1rem;
+  color: #f1e731;
+  letter-spacing: 2.7px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/* Individually targetted words */
+.you{   /* Chorus: line 1 & 2 */
+  font-family: "Loved by the King", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+  color: #90127b;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+}
+.education{ /* Verse 1, Line 1 */
+  font-family: "Loved by the King", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.3rem;
+  color: #96ad00;
+  letter-spacing: 2.5px;
+}
+.dont{  /* Verse 1, line 1 */
+  font-family: "Black Ops One", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.1rem;
+  color: #503ec6;
+  letter-spacing: 1.3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.control{ /* Verse 1, Line 2 */
+  font-family: "Jersey 15", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.0rem;
+  color: #0b70e4;
+  letter-spacing: 2.5px;
+}
+.control2{ /* Verse 1, Line 2 */
+  font-family: "Jersey 15", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #e40b65;
+  letter-spacing: 2.5px;
+}
+
+.classroom{ /* Verse 1, Line 3 */
+  font-family: "Monofett", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3rem;
+  color: #d490d0;
+  letter-spacing: 2.5px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+}
+.dark{ /* Verse 1, Line 3 */
+  font-family: "Wallpoet", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #000000;
+  letter-spacing: 2.5px;
+}
+.sarcasam{ /* Verse 1, Line 3 */
+  font-family: "Festive", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2rem;
+  color: #ff8400d1;
+  letter-spacing: 2px;
+}
+
+
+
+
+/*================================================*/
+ /* Song Credits */
+.credits{
+  font-weight: 400;
+  margin: 0;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #f2f2f2;
+  text-align: center;
+  border: ridge;
+
+}
+.media{
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  background-color: rgb(160, 237, 160);
+  padding: 16px;
+}
+
+.footer{
+  text-align: center;
+  background-color: #e1ffc6;
+}
+}
